@@ -1,0 +1,9 @@
+dev/codescreen/CustomExceptionTest.class
+dev/codescreen/AuthorizationServiceTest.class
+dev/codescreen/BankingTransactionTest.class
+dev/codescreen/PingControllerTest.class
+dev/codescreen/LoadServiceTest.class
+dev/codescreen/EntityTest.class
+dev/codescreen/AuthorizationControllerTest.class
+dev/codescreen/LoadControllerTest.class
+dev/codescreen/PingServiceTest.class

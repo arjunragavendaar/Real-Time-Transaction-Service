@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>LoadResponse.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">CodeScreen_mwpw6bqj</a> &gt; <a href="index.source.html" class="el_package">dev.codescreen.pojo</a> &gt; <span class="el_source">LoadResponse.java</span></div><h1>LoadResponse.java</h1><pre class="source lang-java linenums">package dev.codescreen.pojo;
+
+import dev.codescreen.pojo.ResponseCode.RESPONSE_CODE;
+
+public class LoadResponse {
+
+
+    private TransactionAmount balance; 
+  
+    private String userId; 
+
+    private String messageId; 
+
+    private RESPONSE_CODE responsecode;
+
+
+    public LoadResponse(  String userId, String messageId, TransactionAmount balance,RESPONSE_CODE responsecode) 
+    { 
+  
+<span class="fc" id="L20">        super(); </span>
+  
+<span class="fc" id="L22">        this.userId = userId; </span>
+  
+<span class="fc" id="L24">        this.messageId = messageId; </span>
+  
+<span class="fc" id="L26">        this.balance = balance; </span>
+
+<span class="fc" id="L28">        this.responsecode=responsecode;</span>
+  
+            
+<span class="fc" id="L31">    } </span>
+
+
+    public RESPONSE_CODE getResponseCode() 
+    { 
+  
+<span class="fc" id="L37">         return responsecode; </span>
+    } 
+  
+    public void setResponseCode(RESPONSE_CODE responseCode) 
+    { 
+  
+<span class="fc" id="L43">         this.responsecode = responseCode; </span>
+<span class="fc" id="L44">    } </span>
+  
+    public TransactionAmount getBalance() 
+    { 
+  
+<span class="fc" id="L49">         return balance; </span>
+    } 
+  
+    public void setBalance(TransactionAmount balance) 
+    { 
+  
+<span class="fc" id="L55">         this.balance = balance; </span>
+<span class="fc" id="L56">    } </span>
+
+    public String getUserId() 
+    { 
+  
+<span class="fc" id="L61">         return userId; </span>
+    } 
+  
+    public void setUserId(String userId) 
+    { 
+  
+<span class="fc" id="L67">         this.userId = userId; </span>
+<span class="fc" id="L68">    } </span>
+
+    public String getMessageId() 
+    { 
+  
+<span class="fc" id="L73">         return messageId; </span>
+    } 
+  
+    public void setMessageId(String messageId) 
+    { 
+  
+<span class="fc" id="L79">         this.messageId = messageId; </span>
+<span class="fc" id="L80">    } </span>
+
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
